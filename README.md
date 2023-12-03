@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## TODO
+
+- Add Prisma
+- Create models
+- Create views
+
+## Models
+
+```
+Resource: {
+    name: string,
+    link: string,
+}
+```
+
+## Views
+
+- List view
+- Detail view
+
 ## Getting Started
 
 First, run the development server:
