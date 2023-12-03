@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Typescript Official Docs",
+    "category": "Web",
+    "link": "https://www.typescriptlang.org/"
+  },
+  {
+    "id": 2,
+    "title": "ByteGrad",
+    "category": "YouTube",
+    "link": "https://www.youtube.com/@ByteGrad"
+  }
+]
