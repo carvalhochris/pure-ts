@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import ResourceList from "./components/ResourceList";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
           view repo
         </a>
       </u>
-      <ResourceList />
+      <Link href="/resources">Resources</Link>
+      {/* <ResourceList /> */}
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
