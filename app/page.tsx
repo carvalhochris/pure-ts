@@ -8,7 +8,11 @@ export default function Home() {
       <h1>Welcome to Pure Typescript</h1>
       <p>An online resouce for typescript developers and enthusiasts</p>
       <p>coming soon...</p>
-      <u><a href="https://github.com/carvalhochris/pure-ts" target="#">view repo</a></u>
+      <u>
+        <a href="https://github.com/carvalhochris/pure-ts" target="#">
+          view repo
+        </a>
+      </u>
       <ResourceList />
       {/* <div className={styles.description}>
         <p>
