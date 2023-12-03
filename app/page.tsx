@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import ResourceList from "./components/ResourceList";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <p>An online resouce for typescript developers and enthusiasts</p>
       <p>coming soon...</p>
       <u><a href="https://github.com/carvalhochris/pure-ts" target="#">view repo</a></u>
+      <ResourceList />
       {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
