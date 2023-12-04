@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Users from "./components/Users";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Link href="/resources">Resources</Link>
       </u>
       <br />
+      {/* <Users /> */}
       <br />
       <u>
         <a href="https://github.com/carvalhochris/pure-ts" target="#">

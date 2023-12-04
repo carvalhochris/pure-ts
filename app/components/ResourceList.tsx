@@ -1,3 +1,5 @@
+import { PrismaClient } from "@prisma/client";
+
 const fetchResources = async () => {
   const res = await fetch("https://puretypescript.com/resources.json");
   const jay = await res.json();
@@ -6,14 +8,17 @@ const fetchResources = async () => {
 };
 
 const ResourceList = async () => {
-  const data = await fetchResources();
+  // const data = await fetchResources();
+  const prisma = new PrismaClient();
+
+  const resources = await prisma.resource.findMany();
 
   return (
     <>
-      {data.map((item: { id: number; title: string; link: string }) => (
-        <div key={item.id}>
-          <a href={item.link} target="#">
-            <p>{item.title}</p>
+      {resources.map((resource) => (
+        <div key={resource.id}>
+          <a href={resource.link} target="#">
+            <p>{resource.name}</p>
           </a>
           <hr />
         </div>
