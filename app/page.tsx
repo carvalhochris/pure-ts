@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { styles } from "./styles"
 // import Users from "./components/Users";
 
 export default function Home() {
   return (
     <>
-      <div style={{ margin: "auto", width: "70%", padding: "20px" }}>
+      <div style={styles}>
         <h1>Welcome to Pure Typescript</h1>
         <p>An online resouce for typescript developers and enthusiasts</p>
         <p>coming soon...</p>
@@ -39,3 +40,7 @@ export default function Home() {
     </>
   );
 }
+
+// const styles = {
+//   margin: "auto", width: "70%", padding: "20px"
+// }
