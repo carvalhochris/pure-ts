@@ -8,9 +8,15 @@ export default function Home() {
       <h1>Welcome to Pure Typescript</h1>
       <br />
       <p>An online resouce for typescript developers and enthusiasts</p>
-      <br />
+      <p>Tech stack for this site:</p>
+      <ul>
+        <li>Next.js</li>
+        <li>Prisma</li>
+        <li>Postgres</li>
+        <li>Vercel</li>
+        <li>Heroku</li>
+      </ul>
       <p>coming soon...</p>
-      <br />
       <code>
         const hello: string = {`"`}hello world{`"`}
       </code>
