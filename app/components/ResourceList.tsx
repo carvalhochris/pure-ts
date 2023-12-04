@@ -1,11 +1,11 @@
 import { PrismaClient } from "@prisma/client";
 
-const fetchResources = async () => {
-  const res = await fetch("https://puretypescript.com/resources.json");
-  const jay = await res.json();
-  console.log(jay);
-  return jay;
-};
+// const fetchResources = async () => {
+//   const res = await fetch("https://puretypescript.com/resources.json");
+//   const jay = await res.json();
+//   console.log(jay);
+//   return jay;
+// };
 
 const ResourceList = async () => {
   // const data = await fetchResources();
