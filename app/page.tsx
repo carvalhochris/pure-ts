@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div style={{ margin: "auto", width: "70%", padding: "20px" }}>
+      
         <h1>Welcome to Pure Typescript</h1>
         <p>An online resouce for typescript developers and enthusiasts</p>
         <p>coming soon...</p>
@@ -35,7 +35,6 @@ export default function Home() {
             view repo
           </a>
         </u>
-      </div>
     </>
   );
 }
