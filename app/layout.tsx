@@ -16,9 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <div style={{ margin: "auto", width: "70%", padding: "20px" }}>
       <body className={inter.className}>{children}</body>
-      </div>
     </html>
   )
 }
