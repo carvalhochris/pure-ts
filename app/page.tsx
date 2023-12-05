@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { styles } from "./styles"
+import { styles } from "./styles";
 // import Users from "./components/Users";
 
 export default function Home() {
@@ -8,8 +8,17 @@ export default function Home() {
       <div style={styles}>
         <h1>Welcome to Pure Typescript</h1>
         <p>An online resouce for typescript developers and enthusiasts</p>
-        <p>coming soon...</p>
+        <p>
+          built and maintained by{" "}
+          <a href="https://christophercarvalho.com/" target="#">
+            Christopher Carvalho
+          </a>
+        </p>
         <br />
+
+        <hr />
+        <br />
+
         <p>Tech stack for this site:</p>
         <ul>
           <li>Next.js</li>
@@ -24,6 +33,8 @@ export default function Home() {
         </code>
         <br />
         <br />
+        <hr />
+
         <br />
         <u>
           <Link href="/resources">Resources</Link>
