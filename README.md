@@ -2,18 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## TODO
 
-- Add Prisma
-- Create models
+- Add Prisma (DONE)
+- Create models (DONE)
 - Create views
+- Add auth
 
 ## Models
 
-```
-Resource: {
-    name: string,
-    link: string,
-}
-```
+see /prisma/schema.prisma
 
 ## Views
 
