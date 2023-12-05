@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { styles } from "./styles";
-// import Users from "./components/Users";
 
 export default function Home() {
   return (
@@ -51,7 +50,3 @@ export default function Home() {
     </>
   );
 }
-
-// const styles = {
-//   margin: "auto", width: "70%", padding: "20px"
-// }

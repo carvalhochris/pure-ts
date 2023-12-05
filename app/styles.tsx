@@ -1,5 +1,5 @@
 export const styles = {
   margin: "auto",
-  width: "70%",
+  maxWidth: "600px",
   padding: "20px",
 };
