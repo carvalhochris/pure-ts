@@ -14,10 +14,8 @@ export default function Home() {
           </a>
         </p>
         <br />
-
         <hr />
         <br />
-
         <p>Tech stack for this site:</p>
         <ul>
           <li>Next.js</li>
@@ -33,13 +31,11 @@ export default function Home() {
         <br />
         <br />
         <hr />
-
         <br />
         <u>
           <Link href="/resources">Resources</Link>
         </u>
         <br />
-        {/* <Users /> */}
         <br />
         <u>
           <a href="https://github.com/carvalhochris/pure-ts" target="#">
